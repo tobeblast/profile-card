@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#carrier{
+    height: 100dvh;
+    background-color: rgb(43, 157, 177);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carrier .background-img{
+    display: flex;
+}
+
+#carrier .background-img .back-img1 img {
+    position: absolute;
+    top: -75%;
+    left: -30%;
+}
+
+#carrier .background-img .back-img2 img {
+    position: absolute;
+    bottom: -100%;
+    right: -25%;
+}
+
+#carrier .card-carry{
+    background-color: white;
+    height: 70%;
+    width: 30%;
+    border-radius: 15px;  
+    z-index: 1;
+}
+
+#carrier .card-carry img{
+    border-radius: 15px 15px 0 0;
+}
+
+#carrier .card-carry .boy-picture{
+    display: flex;
+    justify-content: center;
+}
+
+#carrier .boy-picture img {
+    border-radius: 50%;
+    border: 6px solid white;
+    width: 90%;
+}
+
+#carrier .boy-picture .boy-name {
+    position: absolute;
+    top: 30%;
+}
+
+#carrier .boy-name h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#carrier .boy-name span {
+    color: grey;
+    text-align: center;
+    padding-left: 10px;
+}
+
+#carrier .boy-name p {
+    color: grey;
+    text-align: center;
+    font-size: 18;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55%;
+    margin-top: 50%;
+}
+
+.text-content {
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;    
+}
+
+.text-content1 {
+    text-align: center;
+}
+
+.text-content1 p {
+    color: grey;
+}
+
+/* mobile view  */
+
+@media (max-width:500px){
+
+    #carrier .background-img .back-img1 img {
+        position: absolute;
+        top: -125%;
+        left: -115%;
+    }
+
+    #carrier .background-img .back-img2 img {
+        position: absolute;
+        top: 55%;
+        left: 25%;
+    }
+
+    #carrier .card-carry {         
+      width: 60%;      
+    }
+
+    #carrier .card-carry .boy-picture {
+        margin-top: 15%;
+    }
+
+    #carrier .boy-picture img {
+        margin-top: -15%;
+    }
+}
+
+
+
+   
