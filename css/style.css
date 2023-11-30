@@ -6,6 +6,7 @@
 
 #carrier{
     height: 100dvh;
+    width: 100%;
     background-color: rgb(43, 157, 177);
     position: relative;
     overflow: hidden;
