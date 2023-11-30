@@ -102,20 +102,22 @@
 
 @media (max-width:500px){
 
+    #carrier{
+        padding: 0 33px;
+    }
+
     #carrier .background-img .back-img1 img {
-        position: absolute;
-        top: -125%;
-        left: -115%;
+        top:  -125%;
+        left: -220%;
     }
 
     #carrier .background-img .back-img2 img {
-        position: absolute;
         top: 55%;
         left: 25%;
     }
 
     #carrier .card-carry {         
-      width: 60%;      
+      width: 100%;      
     }
 
     #carrier .card-carry .boy-picture {
